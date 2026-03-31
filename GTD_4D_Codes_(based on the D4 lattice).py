@@ -175,7 +175,7 @@ if __name__ == "__main__":
     p = 6
 
     dv = 5
-    du = 11
+    du = 10
 
     print("KYBER1024:", "dv =", dv, ",", "du =", du)
 

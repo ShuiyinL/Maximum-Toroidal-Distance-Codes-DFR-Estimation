@@ -252,7 +252,6 @@ if __name__ == "__main__":
         T=law_convolution(T, Tempt_D3)
 
         for key, value in T.items():
-            #if key > dist_squared/2: #Q/(2*p)*dist_squared:
             if key > Q/(2*p)*dist_squared:
                 sum_of_values += value
 

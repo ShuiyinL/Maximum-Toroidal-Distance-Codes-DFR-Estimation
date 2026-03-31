@@ -13,3 +13,5 @@ Cryptography,” IEEE ISIT 2026, Accepted for Publication. https://arxiv.org/abs
   - The DFR of the proposed 8D GTD codes
   - The **240 root vectors (or Voronoi vectors {v_i})** of 2*E8 lattice are used to compute the distribution **D_i=Pr{<x_i,v_i>}** and the correspoinding DFR per codeword
   - Follow the same method in: Charbel Saliba, Laura Luzzi, Cong Ling. A reconciliation approach to key generation based on Module-LWE. IEEE International Symposiumon Information Theory 2021, Jul 2021, Melbourne, Australia. https://ieeexplore.ieee.org/document/9517882
+ 
+Simply adjust the values of **(eta, k)** to explore **different variants of ML-KEM (Kyber)**, and modify **(du, dv)** to test smaller compression parameters (i.e., lower CER).
